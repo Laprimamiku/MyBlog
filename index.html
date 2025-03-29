@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>欢迎来到我的个人主页</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">关于我</a></li>
+                    <li><a href="#portfolio">作品展示</a></li>
+                    <li><a href="#contact">联系我</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>关于我</h2>
+            <p>欢迎来到我的个人主页！这个博客是我在探索前端开发、软件工程以及技术相关内容的过程中所创建的。作为一个对技术充满热情的人，我决定通过这个平台分享我的学习经历、项目实践以及前端开发的最新动态。</p>
+            <p>在博客中，你可以找到我对不同技术栈的学习总结、开发经验的分享、以及一些有趣的技术挑战和解决方案。无论你是技术新手还是资深开发者，都可以在这里找到一些有用的资源或灵感。</p>
+            <p>我的目标是通过这个博客不仅提升自己的技术能力，还希望能够与志同道合的朋友一起交流、分享经验，共同进步。</p>
+            <p>如果你有任何问题或想法，欢迎通过联系页面与我沟通交流！</p>
+        </div>
+    </section>
+
+	<section id="portfolio" class="section">
+    <div class="container">
+        <h2>我的作品</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="image/project1.png" alt="项目1">
+                <p>项目一</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="image/project2.png" alt="项目2">
+                <p>项目二</p>
+            </div>
+             <div class="portfolio-item">
+                <img src="image/project3.png" alt="项目3">
+                <p>查看更多</p>
+            </div>
+        </div>
+    </div>
+	</section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>联系我</h2>
+            <form id="contact-form">
+                <label for="name">姓名：</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">电子邮件：</label>
+                <input type="email" id="email" name="email" required>
+                <button type="submit">提交</button>
+            </form>
+            <div id="form-message"></div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 个人主页 - 所有权利保留</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
